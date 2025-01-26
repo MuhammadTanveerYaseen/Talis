@@ -167,7 +167,10 @@ export default function Home() {
                 <div className="mt-4">
                   <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">C Programming Tutorial</h3>
                   <p className="mt-2 text-gray-600 dark:text-gray-400">This is c/c++ tutorial and this is for learning C++/C</p>
-                  <Button className="m-2" variant="outline" href="/c-programming-tutorial">Read More</Button>
+                  <Link href="/blog">
+                  <Button className="mx-1" variant="outline">
+                  Read More
+                  </Button> </Link>
                 </div>
               </div>
             </div>
@@ -178,7 +181,10 @@ export default function Home() {
                 <div className="mt-4">
                   <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">ChatGPT vs. Gemini</h3>
                   <p className="mt-2 text-gray-600 dark:text-gray-400">A brief description of the This is ChatGPT vs. Gemini tutorial and this is for learning ChatGPT vs. Gemini</p>
-                  <Button className="m-2" variant="outline" href="/chatgpt-vs-gemini">Read More</Button>
+                  <Link href="/blog">
+                  <Button className="mx-1" variant="outline">
+                  Read More
+                  </Button> </Link>
                 </div>
               </div>
             </div>
@@ -189,7 +195,10 @@ export default function Home() {
                 <div className="mt-4">
                   <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">CSS Tutorial</h3>
                   <p className="mt-2 text-gray-600 dark:text-gray-400">This is CSS Tutorial tutorial and this is for learning CSS</p>
-                  <Button className="m-2" variant="outline" href="/blog">Read More</Button>
+                  <Link href="/blog">
+                  <Button className="mx-1" variant="outline">
+                  Read More
+                  </Button> </Link>
                 </div>
               </div>
             </div>

@@ -104,7 +104,7 @@ const PlanForm = () => {
               </div>
 
               <div>
-                <label className="block mb-2 font-medium">Upload File</label>
+                <label className="block mb-2 font-medium">Upload Requirements File</label>
                 <input
                   type="file"
                   name="file"
