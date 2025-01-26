@@ -1,6 +1,6 @@
 "use client"
 import React from "react";
-import PlanForm from "@/components/PlanForm";
+import PlanForm from "@/components/Planform.js";
 
 const PlansPage = () => {
   return (
